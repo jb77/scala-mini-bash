@@ -11,7 +11,7 @@ object Sugar {
     if (name == "Will") {
       "Hello Boss!"
     } else {
-      "Hello " + name + "!"
-    }    
+      s"Hello $name!"
+    }
   }
 }
