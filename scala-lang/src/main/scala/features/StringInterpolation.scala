@@ -10,7 +10,6 @@ object StringInterpolation extends App {
 
   println(f"Magic Number: $magicNumber%10d")
 
-
   implicit class ConvertyContext(val sc: StringContext) extends AnyVal {
     def n(args: Any*): Int = sc.s(args:_*).toInt
   }
